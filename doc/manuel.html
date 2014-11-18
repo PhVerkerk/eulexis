@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<!-- DATE DE CREATION: 8 juin 2014 -->
+<head>
+<title>Consultation du LSJ et du Pape</title>
+  <meta name="Author" content="Philippe Verkerk" />
+<!-- Un grand merci à Philipp Roelli pour ses fichiers -->
+ 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Language" content="fr" />
+
+</head>
+<body>
+
+<!-- entête -->
+<div class='entete'>
+<table>
+<tr><td>
+<h2> Consultation des dictionnaires </h2>
+</td><td>&nbsp;</td><td>
+<ul><li>LSJ (1940) : Grec --> Anglais</li>
+<li>Pape () : Grec --> Allemand</li></ul>
+</td><td>&nbsp;</td><td>
+<ul><li><a href="http://home.scarlet.be/tabularium/bailly/index.html">
+Le Bailly en mode image (hors site)</a></li>
+<li><a href="http://remacle.org/bloodwolf/vocabulaire/table.htm">
+Le Bailly-Remacle (incomplet ; hors site)</a></li>
+</ul></td></tr>
+</table>
+<table><tr><td>
+<p><img src='../img/Greek_scribe.jpg' alt='Synhellenikos' title='Greek_scribe' width=335 heigth=345></p>
+<a href='#bas_de_page'>Aller au bas de la page</a>
+<a name='haut_de_page'></a>
+</td><td>&nbsp;</td><td>
+
+<h2>Manuel d'utilisation</h2>
+<h3>Présentation</h3>
+<p>Ce petit utilitaire permet de consulter simultanément le dictionnaire de Liddel, Scott et Jones (LSJ 1940) et celui de Pape. Il propose aussi une aide à la lecture d'un texte grec en lemmatisant toutes les formes fléchies. On peut donc saisir un lemme dans la fenêtre appropriée et/ou introduire un texte dans la deuxième fenêtre. <br>
+A l'issue d'une requête, le navigateur affiche la réponse. Le formulaire pour une autre requête est <b>au dessus</b> !</p>
+<h3>Consultation</h3>
+<p>Lorsque la première fenêtre "Recherche d'un lemme" contient un mot, le programme le cherche dans les deux dictionnaires disponibles. Pour cette recherche, il est très permissif et ne tient compte ni des accents, ni des esprits. Il affiche toutes les entrées qu'il trouve et le lecteur choisira celle(s) qui l'intéresse(nt). S'il ne trouve pas le mot demandé, il affichera le mot qui le suit dans l'ordre alphabétique. La colonne de gauche donne les mots voisins, accessibles en un seul clic. Si le lecteur ne souhaite consulter qu'un seul des deux dictionnaires, un menu déroulant lui en donne la possibilité.</p><p>
+Le lemme peut être saisi en utilisant les caractères latins. Un tableau rappelle les équivalences qu'il faut utiliser : ce sont celles du betacode, sans les signes cabalistiques qui donnent les accents et les esprits. Après soumission, le lemme sera transcrit en caractères grecs. Attention, le programme <b>ne comprend pas un mélange</b> de caractères grecs et latins ! Un copier-coller d'un mot grec devrait fonctionner, mais je ne suis pas sûr d'avoir pensé à toutes les combinaisons possibles offertes par l'utf-8.
+</p></td></tr></table>
+<h3>Flexion d'un lemme</h3>
+<p>J'ai ajouté une fenêtre de saisie "Flexion d'un lemme" qui repose sur les données de <a href='https://community.dur.ac.uk/p.j.heslin/Software/Diogenes/'>Diogenes</a>. Il ne s'agit pas d'une réelle flexion du lemme demandé, mais plutôt d'une liste raisonnée des formes fléchies de ce lemme. En particulier, une forme régulière d'un lemme ne sera pas inventée par l'ordinateur si elle n'est pas employée dans la littérature dépouillée par Diogenes. J'ai <i>choisi</i> de ne pas répéter les différents cas où les formes fléchies sont identiques. Par exemple, la forme du génitif singulier d'un adjectif peut être insensible au genre, et n'apparaîtra alors qu'une fois comme "masc/fem/neut gen sg". Les différentes variantes orthographiques (attique, épique etc…) sont données sans distinction.
+</p>
+<h3>Aide à la lecture</h3>
+<p>Une dernière fenêtre de saisie "Lemmatisation d'un texte grec" permet de retrouver tous les lemmes qui donnent la ou les formes fléchies introduites. A nouveau, les accents et esprits ne sont pas considérés. La recherche est faite dans la liste de formes de <a href='http://www.perseus.tufts.edu/'>Perseus</a> que j'ai trouvée dans 
+<a href='https://community.dur.ac.uk/p.j.heslin/Software/Diogenes/'>Diogenes</a>. Le texte saisi ne devrait pas être perdu si les dictionnaires sont consultés.
+</p><p>
+Le résultat d'une requête de lemmatisation est double. Le texte est d'abord recopié avec une aide à la lecture : si on arrête la souris sur un mot, une bulle d'aide apparaît avec les lemmatisations possibles et leur analyse morphologique. A ma connaissance, cela ne fonctionne pas sur les tablettes tactiles, la notion de curseur n'existant pas sur ces machines. D'autre part, le programme fait la listes des formes du texte et propose toutes les formes trouvées dans la liste utilisée. Si une des formes trouvées coïncide exactement avec la forme du texte, elle sera mise en évidence (gras-rouge). La traduction sommaire trouvée dans Diogenes est donnée et un lien est associé au lemme pour consulter directement les dictionnaires.
+</p>
+<h3>Avertissement</h3>
+<p>Ce programme vous est proposé librement et gratuitement, mais sans <b>aucune garantie</b>. J'espère néanmoins qu'il vous sera utile. Si jamais vous y trouvez une erreur manifeste, merci de me la signaler en écrivant à Philippe(dot)Verkerk(at)univ-lille1(dot)fr. cela ne signifie pas que je serai en mesure de la corriger.
+</p>
+<br><a href='#haut_de_page'>Remonter au haut de la page</a>
+<a name='bas_de_page'></a>
+<hr>
+CC-BY-NC Philippe Verkerk, 2014.
+</div>
+</body>
+</html>
