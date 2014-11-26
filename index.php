@@ -261,7 +261,8 @@ require_once('common.php');
   <script src="<?php echo $staticBaseUrl; ?>libs/jquery-1.10.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="<?php echo $staticBaseUrl; ?>libs/bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/eulexis.min.js"></script>
+  <script src="js/lat_grc.json"></script>
   
   <!-- Piwik -->
   <script type="text/javascript"> 
