@@ -1,3 +1,7 @@
 common/
 data/
 .DS_Store
+.grunt/
+node_modules/
+npm-debug.log
+/js/eulexis.min.js
