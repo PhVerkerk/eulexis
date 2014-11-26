@@ -4,4 +4,3 @@ data/
 .grunt/
 node_modules/
 npm-debug.log
-/js/eulexis.min.js
