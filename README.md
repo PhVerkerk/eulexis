@@ -2,7 +2,7 @@
 
 Eulexis est un lemmatiseur de grec ancien. Il permet de rechercher un terme dans des dictionnaires de grec (Liddel-Scott-Jones, Pape, Bailly), de fléchir un lemme et de lemmatiser un texte.
 
-Il est développé par Philippe Verkerk avec l'aide de Régis Robineau dans le cadre de la "Boîte à Outils" de l'Equipex [Biblissima](http://www.biblissima-condorcet.fr).
+Il est développé par Philippe Verkerk (@PhVerkerk) avec l'aide de Régis Robineau dans le cadre de la "Boîte à Outils" de l'Equipex [Biblissima](http://www.biblissima-condorcet.fr).
 
 Eulexis sur le site Biblissima : [http://outils.biblissima.fr/eulexis](http://outils.biblissima.fr/eulexis)
 
@@ -19,4 +19,4 @@ Un grand merci à Philipp Roelli, André Charbonnet, Peter J. Heslin, Yves Ouvra
 * L'abrégé du Bailly est de [Chaeréphon](http://chaerephon.e-monsite.com/medias/files/bailly.html)
 * La lemmatisation et la flexion ont été possibles grâce aux fichiers de [Diogenes](https://community.dur.ac.uk/p.j.heslin/Software/Diogenes) et de [Perseus](http://www.perseus.tufts.edu/)
 
-La fonction d'affichage dynamique des caractères grecs dans les champs de saisie est reprise du site [Diccionario Griego-Español](http://dge.cchs.csic.es/xdge/).
+La fonction d'affichage dynamique des caractères grecs dans les champs de saisie est inspirée du site [Diccionario Griego-Español](http://dge.cchs.csic.es/xdge/).
