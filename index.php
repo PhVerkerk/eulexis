@@ -91,6 +91,9 @@ require_once('common.php');
       <div class="pull-left hidden-xs logo"></div>
       <h1>Eulexis <small class="text-danger">[bêta]</small></h1>
       <p>Lemmatiseur de grec ancien</p>
+      <div class="btn-container">
+        <a class="btn btn-default btn-github" href="https://github.com/biblissima/eulexis"><span class="fa fa-github"></span>&nbsp; Eulexis sur Github</a>
+      </div>
     </div>
   </div><!-- /.jumbotron -->
   
