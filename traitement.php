@@ -616,7 +616,7 @@ if (!$consultation) {
         while ($iii > 0) {
           $ii = $l_ii[$iii];
           // Il y a probablement un renvoi.
-          if (ord(substr($lsj, $ii, 1)) > 127) {
+          if (ord(substr($lsj, $ii, 1)) > 191) {
             // ça se confirme
             $debut = $ii;
             $max = strlen($lsj);
@@ -666,7 +666,7 @@ if (!$consultation) {
           // Il y a probablement un renvoi.
           if (substr($pape, $ii, 1) == " ")
             $ii += 1;
-          if ((ord(substr($pape, $ii, 1)) > 127) || (substr($pape, $ii, 1) == "-")) {
+          if ((ord(substr($pape, $ii, 1)) > 191) || (substr($pape, $ii, 1) == "-")) {
             // ça se confirme
             $debut = $ii;
             $max = strlen($pape);
@@ -692,6 +692,9 @@ if (!$consultation) {
       $lsj = fgets($f1);
       $lsj = substr_replace($lsj, "</b></span>", $len_bailly[$i], 0);
       $lsj = "<span style='color:red'><b>" . $lsj;
+      $l_ii = "";
+      $l_ii[0] = 0;
+      // Il faut nettoyer la liste (résidus du LSJ et du Pape). Correction du 15 février, Ph.
       $ii = 0;
       if (stripos($lsj, " c.") > 0)
         $l_ii = liste_pos($lsj, " c.", $l_ii);
@@ -718,8 +721,8 @@ if (!$consultation) {
             $ii = $ii + 5;
           else
             $ii = $ii + 1;
-          if (ord(substr($lsj, $ii, 1)) > 127) {
-            // ça se confirme
+          if (ord(substr($lsj, $ii, 1)) > 191) {
+            // ça se confirme : début d'un caractère unicode, supposé grec.
             $debut = $ii;
             $max = strlen($lsj);
             while ((ord(substr($lsj, $ii, 1)) > 127) && ($ii < $max))
