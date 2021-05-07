@@ -1,3 +1,5 @@
+*WARNING: This repository is now archived, it is superseded by the [outils.biblissima.fr](https://github.com/biblissima/outils.biblissima.fr) repository, where you will find the files and instructions to run your own instance of Eulexis locally.*
+
 # Eulexis
 
 Eulexis est un lemmatiseur de grec ancien. Il permet de rechercher un terme dans des dictionnaires de grec (Liddel-Scott-Jones, Pape, Bailly), de fléchir un lemme et de lemmatiser un texte.
