@@ -6,7 +6,7 @@ Eulexis est un lemmatiseur de grec ancien. Il permet de rechercher un terme dans
 
 Il est développé par Philippe Verkerk (@PhVerkerk) avec l'aide de Régis Robineau dans le cadre de la "Boîte à Outils" de l'Equipex [Biblissima](http://www.biblissima-condorcet.fr).
 
-Eulexis sur le site Biblissima : [http://outils.biblissima.fr/eulexis](http://outils.biblissima.fr/eulexis)
+Eulexis sur le site Biblissima : [http://outils.biblissima.fr/eulexis-web](http://outils.biblissima.fr/eulexis-web)
 
 ## Licence
 
